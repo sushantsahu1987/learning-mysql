@@ -14,6 +14,7 @@ services:
       MYSQL_PASSWORD: user
     volumes:
       - ./db:/docker-entrypoint-initdb.d
+    network_mode: 'host'
 
   adminer:
     image: adminer

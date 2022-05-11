@@ -2,7 +2,7 @@ const app = require("./src/app");
 const mysql = require("mysql");
 
 var con = mysql.createConnection({
-  host: "localhost",
+  host: "172.17.0.1",
   user: "root",
   password: "root",
   database: "testdb",
