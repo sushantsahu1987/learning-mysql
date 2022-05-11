@@ -10,6 +10,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: testdb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user
     volumes:
       - ./db:/docker-entrypoint-initdb.d
 
