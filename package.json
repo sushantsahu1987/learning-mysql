@@ -1,0 +1,18 @@
+{
+  "name": "tx-manager-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "./node_modules/.bin/nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Sushant Sahu <sushant87@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

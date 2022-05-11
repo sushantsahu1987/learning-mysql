@@ -1,0 +1,32 @@
+GET http://localhost:3000/transactions HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:3000/transactions/1 HTTP/1.1
+content-type: application/json
+
+###
+
+PUT http://localhost:3000/transactions/1 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "coffee xxx",
+    "price": 10.00
+}
+
+###
+
+POST http://localhost:3000/transactions/1 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "tea xxx",
+    "price": 12.21
+}
+
+###
+
+DELETE  http://localhost:3000/transactions/2 HTTP/1.1
+content-type: application/json
